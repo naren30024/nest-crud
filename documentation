@@ -1,0 +1,23 @@
+# NESTjs PostgreSQL API
+
+## Description
+This project is a basic NESTjs application for managing Users and WalletAddress tables in a PostgreSQL database.
+
+## Setup Instructions
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Set up your PostgreSQL database and update the connection details in `src/app.module.ts`.
+4. Run the application: `npm run start`.
+
+## API Endpoints
+
+### Users
+- `POST /users` - Create a new user.
+- `GET /users` - Retrieve all users.
+- `GET /users/:id` - Retrieve a user by ID.
+- `DELETE /users/:id` - Delete a user by ID.
+
+### WalletAddress
+- `POST /wallet-address` - Create a new wallet address.
+- `GET /wallet-address` - Retrieve all wallet addresses.
+- `GET /wallet
